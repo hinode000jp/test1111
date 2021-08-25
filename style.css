@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+h1 {
+  color: #ffffee;
+  font-size: 90px;
+  font-family: lobster;
+  border-style: solid;
+  border-color: orange;
+  border-width: 10px;
+  text-align: center;
+  border-radius: 90px;
+  padding: 20px;
+  margin: 30px;
+}
+
+header {
+  background-image: url(img/bg_header.jpg);
+  height: 450px;
+  padding-top: 150px;
+}
+
+.shop {
+  background-color: #ffffee;
+  color: #663300;
+  padding: 30px;
+}
+
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+.shop p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+  height: 300px;
+}
+
+.shop img {
+  float: right;
+}
+
+.photo {
+  padding: 30px;
+  background-image: url(img/wood.jpg);
+}
+
+.photo h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+.photo h3 {
+  color: #663300;
+}
+
+.photo p {
+  color: #ffffff;
+  clear: left;
+}
+
+.big {
+  background-color: #ffffff;
+  width: 500px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  float: left;
+  transform: rotate(-5deg);
+}
+
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+.box {
+  float: left;
+}
